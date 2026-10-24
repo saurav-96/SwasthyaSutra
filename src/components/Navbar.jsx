@@ -34,7 +34,7 @@ export default function Navbar({ darkMode, setDarkMode, chatOpen, setChatOpen, s
                     {/* Logo with brand favicon */}
                     <a href="#" className="flex items-center gap-2.5 group">
                         <img
-                            src="/favicon.svg"
+                            src={`${import.meta.env.BASE_URL}favicon.svg`}
                             alt="SwasthyaSutra Logo"
                             className="w-8 h-8 drop-shadow-lg group-hover:scale-110 transition-transform duration-300"
                         />

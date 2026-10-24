@@ -36,7 +36,7 @@ export default function AuthModal({ darkMode, isOpen, onClose }) {
                             </div>
                             <div className="absolute inset-0 flex items-center justify-center">
                                 <div className="w-16 h-16 rounded-2xl bg-white/10 backdrop-blur-md flex items-center justify-center border border-white/20">
-                                    <img src="/favicon.svg" alt="Logo" className="w-10 h-10" />
+                                    <img src={`${import.meta.env.BASE_URL}favicon.svg`} alt="Logo" className="w-10 h-10" />
                                 </div>
                             </div>
                             <button

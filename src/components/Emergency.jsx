@@ -15,7 +15,7 @@ export default function Emergency({ darkMode, setChatOpen }) {
 
                     {/* Brand Logo (Lightning Bolt) */}
                     <img
-                        src="/favicon.svg"
+                        src={`${import.meta.env.BASE_URL}favicon.svg`}
                         alt="SanjeevanAI Logo"
                         className="w-10 h-10 drop-shadow-md brightness-0 invert"
                     />
